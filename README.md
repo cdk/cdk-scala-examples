@@ -6,8 +6,6 @@ to compile and will automatically fetch the CDK dependency. A selection of tasks
 from the [Chemical Toolkit Rosetta Wiki](http://ctr.wikia.com/) are included and can be run via `sbt` from the command line.
 
 
-
-
 #### [Convert a SMILES string to canonical SMILES](http://ctr.wikia.com/wiki/Convert_a_SMILES_string_to_canonical_SMILES) 
 Run: `$ sbt 'run-main ctr.CanSmi'` <br />
 Src: [`ctr.CanSmi.scala`](https://github.com/cdk/cdk-scala-examples/tree/master/src/main/scala/ctr/CanSmi.scala)
@@ -24,7 +22,7 @@ Src: [`ctr.MolWeight.scala`](https://github.com/cdk/cdk-scala-examples/tree/mast
 Run: `$ sbt 'run-main ctr.SmaMatch'` <br />
 Src: [`ctr.SmaMatch.scala`](https://github.com/cdk/cdk-scala-examples/tree/master/src/main/scala/ctr/SmaMatch.scala)
 
-#### [Find the Graph Diameter](http://ctr.wikia.com/wiki/Find_the_graph_diameter) 
+#### [Find the graph diameter](http://ctr.wikia.com/wiki/Find_the_graph_diameter) 
 Run: `$ sbt 'run-main ctr.GraphDiameter'` <br />
 Src: [`ctr.GraphDiameter.scala`](https://github.com/cdk/cdk-scala-examples/tree/master/src/main/scala/ctr/GraphDiameter.scala)
 
